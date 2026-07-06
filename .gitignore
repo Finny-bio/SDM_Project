@@ -1,4 +1,7 @@
+.Renviron
+data/
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+.RDataTmp
