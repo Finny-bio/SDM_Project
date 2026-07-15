@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Pinguicula vulgaris Species Distribution Model
 
 SDM for common butterwort across Scotland, Northern England, and Ireland.
@@ -9,7 +8,7 @@ SDM for common butterwort across Scotland, Northern England, and Ireland.
   - GBIF download key: `0021532-260623161305970`
 - [x] Environmental predictors: WorldClim bioclim, cropped/masked to study region (`scripts/03_environmental_predictors.R`)
 - [x] Occurrence cleaning and spatial thinning (`scripts/04_occurrence_cleaning_and_thinning.R`) — 55,374 raw records → 945 final presence points
-- [ ] Predictor collinearity checks
+- [x] Predictor collinearity checks (`scripts/05_predictor_collinearity.R`) — 19 → 7 final predictors (bio_1, bio_3, bio_4, bio_8, bio_9, bio_14, bio_15)
 - [ ] Model fitting and evaluation
 - [ ] Prediction and mapping
 
